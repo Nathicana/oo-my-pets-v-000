@@ -34,7 +34,7 @@ def buy_fish(name)
 end
 
 def say_species
-  puts "I am a #{species}"
+  puts "I am a #{species}."
 end
 
 end
