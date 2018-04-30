@@ -5,8 +5,11 @@ attr_accessor :name, :pets
 attr_reader :species
 
 def self.all
+  OWNERS
+end
+def self.count 
   OWNERS 
-end 
+end  
 
 def initialize(species)
   @species = species
