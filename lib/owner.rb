@@ -33,7 +33,7 @@ def buy_fish(name)
   pets[:fishes] << Fish.new(name)
 end
 
-def say_species 
+def say_species
   puts "I am a {#species}"
 end
 
