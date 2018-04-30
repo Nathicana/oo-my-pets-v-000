@@ -22,7 +22,6 @@ end
 
 def buy_cat(name)
   pets[:cats] << Cat.new(name)
-
 end 
 
 
