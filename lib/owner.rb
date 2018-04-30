@@ -16,8 +16,7 @@ def initialize(species)
   @species = species
   OWNERS << self
   @pets = {:fishes [], :cats [], :dogs []}
-
-  end
+end
 
 
 def add_owner(owner)
