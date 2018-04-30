@@ -7,9 +7,9 @@ attr_reader :species
 def self.all
   OWNERS
 end
-def self.count 
-  OWNERS 
-end  
+def self.count
+  OWNERS.size
+end
 
 def initialize(species)
   @species = species
