@@ -22,14 +22,14 @@ end
 
 def buy_cat(name)
   pets[:cats] << Cat.new(name)
-end 
-
-def buy_dog(name) 
-  pets[:dogs] << Dog.new(name) 
 end
 
-def buy_fish(name) 
+def buy_dog(name)
+  pets[:dogs] << Dog.new(name)
+end
+
+def buy_fish(name)
   pets[:fish] << Fish.new(name)
-end 
+end
 
 end
