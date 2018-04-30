@@ -18,8 +18,8 @@ def initialize(species)
   @pets = {:fishes=> [], :cats=> [], :dogs=> []}
 end
 
-def self.reset_all 
-  OWNERS.clear 
+def self.reset_all
+  OWNERS.clear
 end
 
 def add_owner(owner)
