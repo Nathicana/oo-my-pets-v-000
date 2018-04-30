@@ -4,7 +4,9 @@ OWNERS = []
 attr_accessor :name, :pets
 attr_reader :species
 
-
+def self.all
+  OWNERS 
+end 
 
 def initialize(species)
   @species = species
