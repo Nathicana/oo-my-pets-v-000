@@ -42,7 +42,7 @@ def say_species
   "I am a #{species}."
 end
 
-def walk_dogs 
+def walk_dogs
   pets[:dogs].each do |dog|
     dog.mood = "happy"
   end
