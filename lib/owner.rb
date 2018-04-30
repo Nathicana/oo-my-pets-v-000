@@ -20,11 +20,6 @@ def initialize(species)
   end
 
 
-
-def species
-  @species << species
-end
-
 def add_owner(owner)
   @all << owner
 end
