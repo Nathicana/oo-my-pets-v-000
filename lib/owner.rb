@@ -11,8 +11,8 @@ def initialize(species)
 
 
 
-def species(name)
-  @species << species.new(name)
+def species
+  @species << species.new
 end
 
 def add_owner(owner)
