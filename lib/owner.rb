@@ -12,7 +12,7 @@ def initialize(species)
 
 
 def species
-  @species << species.new
+  @species = species.new
 end
 
 def add_owner(owner)
