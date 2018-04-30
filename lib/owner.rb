@@ -20,5 +20,11 @@ def add_owner(owner)
   @all << owner
 end
 
+def buy_cat(name)
+  pets[:cats] << Cat.new(name)
+
+end 
+
+
 
 end
