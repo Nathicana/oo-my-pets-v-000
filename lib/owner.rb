@@ -61,7 +61,7 @@ def feed_fish
 end
 
 def sell_pets
-  pets
+  pets.each do species, animals|
   animals.each do |animal|
     animal.mood = "nervous"
   end
